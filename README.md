@@ -17,3 +17,9 @@
   4. tsh
   5. zsh
   6. fish
+
+
+### What is Shell Scripting:
+- Shell script consist of set of commands to perform a task.
+- All the commands execute sequentially.
+- some task like file manipulation,program execution,user intrection,automation of task et can be done.
