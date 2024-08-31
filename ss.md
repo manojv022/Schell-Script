@@ -16,3 +16,4 @@ cat /etc/shells
 ```
 
 ![image](https://github.com/user-attachments/assets/48f936a7-314b-43a9-a76c-b14fa7bab8d0)
+![image](https://github.com/user-attachments/assets/4d6ffe3e-7383-4ac9-b4cf-08cb6be32c65)
