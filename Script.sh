@@ -109,4 +109,18 @@ read -p "your country:" country
         
 
 
+### 6. FOR file path store data:
+
+#!/bin/bash
+
+#getting values from a little file names.txt
+
+FILE="/home/manoj/myscripts/names.txt"
+
+for name in $(cat $FILE)
+do
+        echo "name is $name"
+done
+-----------------------------------------------------------------------------------------
+
 
