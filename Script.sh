@@ -28,7 +28,7 @@ echo "$mul"
 let sum=$x+$y
 echo "$sum"
 ----------------
-### 2nd Directly withput let command:
+### 2nd Directly without let command:
 
 
 #!/bin/bash
@@ -70,5 +70,43 @@ fi
 --------------------------------------------------------------------------
 
 
-### 4. 
+### 4. Case input :
+
+#!/bin/bash
+
+echo "provide an option"
+echo "a for print data"
+echo "b for list of scripts"
+echo "c to check the current location"
+
+read choice
+
+case $choice in
+        a)date;;
+        b)ls;;
+        c)pwd;;
+        *)echo "please provide a valid value"
+esac
+
+-----------------------------------------------------------------------------
+
+### 5. Logical operations : AND(&&) operation
+
+#!/bin/bash
+
+#AND operation
+
+read -p "what is your age? " age
+read -p "your country:" country
+
+        if [[ $age -ge 18 ]] && [[ $country == "india" ]]
+        then
+                echo "you can vote"
+        else
+                echo "you can't vote"
+        fi
+-------------------------------------------------------------------------------
+        
+
+
 
