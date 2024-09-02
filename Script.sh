@@ -109,7 +109,7 @@ read -p "your country:" country
         
 
 
-### 6. FOR file path store data:
+### 6. FOR loop path store data:
 
 #!/bin/bash
 
@@ -123,4 +123,29 @@ do
 done
 -----------------------------------------------------------------------------------------
 
+### 7. While loop:
+#!/bin/bash
 
+count=0
+num=10
+
+while [[ $count -le $num ]]
+do
+        echo "value of count var is $count"
+        let count++
+done
+-------------------------------------------------------------------------------------------
+
+
+### While loop iinfinete:
+
+#!/bin/bash
+
+#infinite loop
+while true
+do
+        echo "hello everyone"
+        sleep 2s
+done
+
+-----------------------------------------------------------------------------------------------
