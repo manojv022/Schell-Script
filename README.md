@@ -30,3 +30,10 @@
 
 ### Contional calculation Symbols:
 ![WhatsApp Image 2024-09-02 at 00 23 10_3ddb8711](https://github.com/user-attachments/assets/b6c95de7-4c4e-4db5-90a8-1bf9d733f36f)
+
+
+
+### what is Funtions:
+-  Block of code which preform some tsk and run when it is called.
+-  can be reuse many times in our program which lessen our lines of code.
+-  we can pass arguments to the method.
