@@ -171,3 +171,50 @@ welcomenote
 ----------------------------------------------------------------------------
 
 ### 10. 
+
+#!/bin/bash
+
+#to access the arguments
+echo "1st argument is $1"
+echo "2nd argument is $2"
+
+echo "all the arguments are - $@"
+echo "number of arguments are - $#"
+
+for filename in $@
+do
+        echo "copying file - $filemane"
+done
+
+-------------------------------------------------------------------------------
+
+### 11. get random otp /number 0 to 32767.
+
+echo $RANDOM
+
+------------
+#!/bin/bash
+
+#generating a random no. between 1 to 6
+
+NO=$(( $RANDOM%6 + 1 ))
+echo "Number is $NO"
+
+------------------------------------------------------------------------------------
+
+### 12. To check user is root or not:
+
+#!/bin/bash
+
+#checking if the user is root or noy
+
+if [[ $UID  -eq 0 ]]
+then
+        echo "user is root"
+else
+        echo "user is not root"
+fi
+
+-------------------------------------------------------------------------------------
+
+### 13. 
