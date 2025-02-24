@@ -35,3 +35,15 @@ echo "User '$username' has been successfully created."
 
 # Display user details
 id "$username"
+
+
+
+-----
+
+## set permissions to  exectue and run script:
+
+chmod +x create_user.sh
+./create_user.sh
+
+
+
