@@ -32,3 +32,7 @@ fi
 # Archive backups older than 30 days (optional: tar or gzip)
 echo "Archiving backups older than $RETENTION_DAYS days..."
 find $BACKUP_DIR -type d -mtime +$RETENTION_DAYS -exec tar -czf $ARCHIVE_DIR/backup_$(basename {})_$(date +"%Y%m%d").tar.gz {} \;
+
+
+if [ $? -eq 0 ]; then
+  echo "Archive successful"
